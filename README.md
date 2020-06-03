@@ -11,7 +11,7 @@ from Spring Boot using Gradle's Kotlin DSL.
 
 ## Read the Article
 
-  * [DEV]()
+  * [DEV](https://dev.to/darkes/using-gradle-s-kotlin-dsl-to-bundle-react-with-a-spring-boot-web-application-355k)
 
 
 ## How to Connect & Support
