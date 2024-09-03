@@ -39,7 +39,7 @@ jobs:
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/download-artifact@v1
+      - uses: actions/download-artifact@v4.1.7
         with:
           name: jar
       - run: docker build --build-arg artifact_name=spring-boot-react-gradle-kotlin.jar --file Dockerfile --tag $GITHUB_SHA .
